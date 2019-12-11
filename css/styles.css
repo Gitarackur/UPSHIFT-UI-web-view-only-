@@ -1,0 +1,1721 @@
+
+    * {
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        font-family: "Open Sans";
+        
+      }
+    
+      body{
+        width: 100%;
+        margin: 0%;
+        display: block;
+        background-color: white;
+      }
+    
+
+
+      #container{
+        background-color: white;
+        width: 88%;
+        display: flex;
+        margin: auto;
+        
+      }
+
+      .menu1{
+          width: 40%;
+          display: flex;
+          margin-right: 5%;
+          padding: 10px;
+      }
+
+
+      .menu1 img{
+        width: 30%;
+        display: block;
+        color: #15244D;
+        margin-right: 3.4%;
+        padding: 10px;
+    }
+
+
+      .menu1 a{
+        width: 30%;
+        display: block;
+        color: #15244D;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 3.3%;
+        padding: 10px;
+    }
+
+
+
+
+      .menu2{
+        width: 35%;
+        display: flex;
+        margin-right: 5%;
+        padding: 10px;
+    }
+
+
+    .menu2 a{
+        width: 30%;
+        display: block;
+        color: #15244D;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 3.3%;
+        padding: 10px;
+    }
+
+
+
+    .menu3{
+        width: 20%;
+        display: flex;
+        padding: 10px;
+    }
+
+    .menu3 div{
+        width: 100%;
+        display: flex;
+    }
+
+    .menu3 div .login{
+        width: 50%;
+        display: block;
+        color: #15244D;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 5%;
+        padding: 10px;
+    }
+
+    .menu3 div .joinNow{
+        background-color: #F4F9FF;
+        border-radius: 50px;
+        color: #4885FA;
+        width: 50%;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+/* hover for the links */
+
+
+    #container a:hover{
+        background-color: #F4F9FF;
+        color: #16284C;
+    }
+
+
+
+
+
+
+
+
+
+    .Jtron{
+        display: flex;
+        width: 88%;
+        height: 500px;
+        margin-left: 6%;
+        margin-right: 6%;
+        position: absolute;
+        top: 66px;
+        z-index: 1;
+        background-color: #F8F7FC;
+        color: #15244D;
+    }
+
+    .Jtron .img11 {
+      width: 40%;
+      height: 500px;
+    }
+
+    .Jtron .img11 .img1{
+        display: block;
+        width: 100%;
+        margin: auto;
+        border: 1px solid white;
+        height: inherit;
+    }
+
+    .Jtron .UpShiftJumboTron{
+        width: 55%;
+        height: 500px;
+        display: block;
+        padding: 40px;
+        background-color: linear-gradient(#FAFAFC, #FBFBFD, #FCFCFE, #FDFDFF);
+    }
+    
+    .Jtron.UpShiftJumboTron h1{
+        padding: 5px;
+        margin: auto;
+        color: #15244D;
+    }
+    
+    .Jtron .UpShiftJumboTron p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin: auto;
+        color: #384048;
+    }
+    
+    .Jtron .UpShiftJumboTron .GetStartedDiv{
+        display: flex;
+        width: 100%;
+    }
+
+    .Jtron .UpShiftJumboTron .GetStartedDiv .input{
+        border-radius: 50px;
+        padding: 20px;
+        display: block;
+        width: 40%;
+        margin-right: 5%;
+        border: 1px solid gainsboro;
+    }
+
+    .Jtron .UpShiftJumboTron .GetStartedDiv .GetStarted{
+        display: block;
+        width: 20%;
+        padding: 20px;
+        background-color: #26C195;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    #body{
+        background-color: #F4F9FF;
+        color: #4F5261;
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+
+    .firstline{
+        margin: auto;
+    }
+
+
+
+    #body #UpshiftDetails{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #body #UpshiftDetails h1{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #body #UpshiftDetails p{
+        display: block;
+        width: 45%;
+        margin: auto;
+        color: #384048;
+        line-height: 30px;
+        word-wrap: break-word;
+        padding: 10px;
+    }
+
+
+
+
+
+    #UpshiftProcessScheme{
+        display: flex;
+        width: 100%;
+        background-color: #F4F9FF;
+        margin: auto;
+        
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    #UpshiftProcessScheme .upshiftText{
+        width: 20%;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        margin-left: 5%;
+        margin-right: 3.33%;
+    }
+    
+    
+    #UpshiftProcessScheme .upshiftText img{
+        display: block;
+        width: 20%;
+        margin: auto;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 50px 0px 50px 0px #E3E9F5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftText h1{
+        width: 100%;
+        margin: auto;
+        color: #15244D;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftText p{
+        width: 80%;
+        margin: auto;
+        line-height: 30px;
+        word-wrap: initial;
+        padding: 0px;
+        color: #4F5261;
+    }
+    
+    
+    
+    
+    
+    
+    #UpshiftProcessScheme .upshiftDeliver{
+        width: 20%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        position: relative;
+        top: 30px;
+        margin-right: 3.33%;
+    }
+    
+    #UpshiftProcessScheme .upshiftDeliver img{
+        display: block;
+        width: 20%;
+        margin: auto;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 50px 0px 50px 0px #E3E9F5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftDeliver h1{
+        width: 100%;
+        margin: auto;
+        color: #15244D;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftDeliver p{
+        width: 90%;
+        margin: auto;
+        line-height: 30px;
+        word-wrap: break-word;
+        padding: 0px;
+        color: #4F5261;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #UpshiftProcessScheme .upshiftDrive{
+        width: 20%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        margin-right: 3.33%;
+    }
+    
+    #UpshiftProcessScheme .upshiftDrive img{
+        display: block;
+        width: 20%;
+        margin: auto;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 50px 0px 50px 0px #E3E9F5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftDrive h1{
+        width: 100%;
+        margin: auto;
+        color: #15244D;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftDrive p{
+        width: 100%;
+        margin: auto;
+        line-height: 30px;
+        word-wrap: break-word;
+        padding: 0px;
+        color: #4F5261;
+    }
+    
+    
+    
+    
+    
+    
+    #UpshiftProcessScheme .upshiftPick{
+        width: 20%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        position: relative;
+        top: 30px;
+        margin-right: 5%;
+    }
+    
+    
+    #UpshiftProcessScheme .upshiftPick img{
+        display: block;
+        width: 20%;
+        margin: auto;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 70px 0px 70px 0px #e2e8f4;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftPick h1{
+        width: 100%;
+        margin: auto;
+        color: #15244D;
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    
+    #UpshiftProcessScheme .upshiftPick p{
+        width: 100%;
+        margin: auto;
+        line-height: 30px;
+        word-wrap: break-word;
+        padding: 0px;
+        color: #4F5261;
+    }
+    
+    
+
+
+
+
+
+
+
+    #upshiftServices{
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 180px;
+        z-index: 2;
+        padding: 60px;
+        background-color: white;
+        box-shadow: 25px 25px 25px 2px gainsboro;
+    }
+
+
+    #upshiftServices #upshiftDog{
+        display: block;
+        width: 33.3%;
+    }
+    
+    #upshiftServices #upshiftDog div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftServices #upshiftDog div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        color: #384048;
+        border-radius: 50%;
+        background-color: #4885FA;
+        box-shadow: 50px 0px 50px 0px #D5F3EB;
+        margin-right: 10%;
+    }
+    
+    #upshiftServices #upshiftDog div h1{
+        display: block;
+        width: 50%;
+        color: #15244D;
+    }
+    
+    #upshiftServices #upshiftDog p{
+        display: block;
+        width: 80%;
+        color: #384048;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #upshiftServices #upshiftSurf{
+        display: block;
+        width: 33.3%;
+    }
+    
+    #upshiftServices #upshiftSurf div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftServices #upshiftSurf div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        color: #384048;
+        border-radius: 50%;
+        background-color: #26C195;
+        box-shadow: 50px 0px 50px 0px #D5F3EB;
+        margin-right: 10%;
+    }
+    
+    #upshiftServices #upshiftSurf div h1{
+        display: block;
+        width: 50%;
+        color: #15244D;
+    }
+    
+    #upshiftServices #upshiftSurf p{
+        display: block;
+        width: 80%;
+        color: #384048;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    #upshiftServices #upshiftSki{
+        display: block;
+        width: 33.3%;
+    }
+    
+    #upshiftServices #upshiftSki div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftServices #upshiftSki div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        color: #384048;
+        border-radius: 50%;
+        background-color: #F8C546;
+        box-shadow: 50px 0px 50px 0px #E7EAF1;
+        margin-right: 10%;
+    }
+    
+    #upshiftServices #upshiftSki div h1{
+        display: block;
+        width: 50%;
+        color: #15244D;
+    }
+    
+    #upshiftServices #upshiftSki p{
+        display: block;
+        width: 100%;
+        color: #384048;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    
+
+
+
+
+
+
+
+
+
+    #body1{
+        display: block;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        position: absolute;
+        top: 1500px;
+    }
+
+    .secondline{
+        margin-left: 10%;
+    }
+
+
+
+    #upshiftDoptions{
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        margin: auto;
+        background-color: white;
+        position: relative;
+        top: 20px;
+        margin-top: 200px;
+    }
+    
+
+    #upshiftDoptions .DeliveryOpt{
+        display: block;
+        width: 40%;
+    }
+    
+    #upshiftDoptions .DeliveryOpt h1{
+        display: block;
+        width: 50%;
+        color: #15244D;
+        word-wrap: break-word;
+        border-top-width: 3px;
+        padding-top: 40px;
+        margin-left: 10%;
+        position: relative;
+        top: -30px;
+    }
+    
+    #upshiftDoptions .ConciergeService{
+        display: block;
+        width: 30%;
+    }
+    
+    #upshiftDoptions .ConciergeService div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftDoptions .ConciergeService div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #4885FA;
+        border-radius: 50%;
+        margin-right: 10%;
+    }
+    
+    #upshiftDoptions .ConciergeService div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+    #upshiftDoptions .ConciergeService p{
+        display: block;
+        width: 70%;
+        color: #384048;
+        word-wrap: break-word;
+        margin-left: 20%;
+        line-height: 30px;
+    }
+    
+    #upshiftDoptions .SelfService{
+        display: block;
+        width: 30%;
+    }
+    
+    #upshiftDoptions .SelfService div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftDoptions .SelfService div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 10%;
+    }
+    
+    #upshiftDoptions .SelfService div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+    #upshiftDoptions .SelfService p{
+        display: block;
+        width: 70%;
+        color: #384048;
+        margin-left: 20%;
+        line-height: 30px;
+    }
+    
+
+    #upshiftGMap{
+        display: block;
+        height: 50px;
+    }
+    
+    
+    #upshiftGMap img{
+        width: 94%;
+        display: block;
+        border:1px solid black;
+        background-color: white;
+        height: 500px;
+        position: relative;
+        top: 50px;
+        z-index: 1;
+    }
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+    #body2{
+        background: linear-gradient(#1A2D55, #16284C);
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top: 2300px;
+        display: block;
+    }
+
+    #body2 #upshiftPrius{
+        display: flex;
+        width: 100%;
+        margin-top: 300px;
+    }
+    
+    #body2 #upshiftPrius .upshiftAlwaysDrive{
+        display: block;
+        width: 55%;
+        color: #C9D4E8;
+        line-height: 30px;
+        margin-top: 0px;
+        padding: 100px;
+        margin-top: -50px; 
+    }
+
+    .thirdline{
+        /* margin-left: 10%; */
+    }
+
+    #body2 #upshiftPrius .upshiftAlwaysDrive h1{
+        width: 45%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        word-wrap: break-word; 
+        line-height: 40px;   
+    }
+    
+    #body2 #upshiftPrius .upshiftAlwaysDrive .p{
+        width: 100%;
+        font-weight: normal;
+        color: #C9D4E8;
+        word-wrap: break-word;
+        
+    }    
+
+
+    #body2 #upshiftPrius .upshiftAlwaysDrive .jorgeR{
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        color: #C9D4E8;
+    }
+    
+    #body2 #upshiftPrius .upshiftAlwaysDrive .jorgeR img{
+        display: block;
+        width: 8%;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    #body2 #upshiftPrius .upshiftAlwaysDrive .jorgeR p{
+        display: block;
+        width: 50%;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+
+
+    #body2 #upshiftPrius .upshiftPictures{
+        display: block;
+        width: 45%;
+        padding: 0px;
+    }
+
+    #body2 #upshiftPrius .upshiftPictures img{
+        display: block;
+        width: 80%;
+        height: 400px;
+        background-color: white;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+    #body2 #upshiftPrius .upshiftPictures .upshiftPicturesGrid{
+        display: flex;
+        width: 100%;
+        padding-left: 43px;
+        padding-top: 0px;
+    }
+    
+    #body2 #upshiftPrius .upshiftPictures .upshiftPicturesGrid .Grid1{
+        display: block;
+        width: 37%;
+        height: 250px;
+        background-color: white;
+        border: 1px solid black;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    
+    #body2 #upshiftPrius .upshiftPictures .upshiftPicturesGrid .Grid2{
+        display: block;
+        width: 50%;
+        height: 200px;
+        background-color: white;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #body3{
+        width: 100%;
+        background-color: #F4F9FF;
+        color: #15244D;
+        position: absolute;
+        top: 3250px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        z-index: 0;
+    }
+
+
+    #body3 .upshiftMonthlyP{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+    .fourthline{
+        margin: auto;
+    }
+    
+    #body3 .upshiftMonthlyP h1{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        border-top-width: 3px;
+        padding-top: 20px;
+    }
+    
+    #body3 .upshiftMonthlyP p{
+        display: block;
+        width: 51%;
+        margin: auto;
+        text-align: center;
+        word-wrap: break-word; 
+    }
+
+
+
+    #body3 .MonthlyPlans{
+        display: flex;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        margin-top: 0px;
+    }
+
+
+
+    #body3 .MonthlyPlans .FlexPass{
+        display: block;
+        width: 20%;
+        border: 1px solid gainsboro;
+        margin-left: 15%;
+        margin-right: 5%;
+        padding: 20px;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass h1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #15244D;
+        padding: 10px;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass .paMonth{
+        text-align: center;
+        color: #4F535F;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass .One59{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass .Magic{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+        word-wrap: break-word;
+        margin: auto;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass button{
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #26C195; 
+        color: white;
+        padding: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    #body3 .MonthlyPlans .FlexPass a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: #698ED5;
+        padding: 20px;
+    }
+
+    
+    #body3 .MonthlyPlans .GetAway{
+        display: block;
+        width: 20%;
+        border: 1px solid gainsboro;
+        margin-right: 5%;
+        padding: 20px;
+    }
+
+    #body3 .MonthlyPlans .GetAway h1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #15244D;
+        padding: 10px;
+    }
+    
+    #body3 .MonthlyPlans .GetAway .rec{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 10px;
+    }
+    
+    #body3 .MonthlyPlans .GetAway .paMonth{
+        text-align: center;
+        color: #4F535F;
+    }
+    
+    #body3 .MonthlyPlans .GetAway .Two19{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+    }
+    
+    #body3 .MonthlyPlans .GetAway .Magic1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+        word-wrap: break-word;
+        margin: auto;
+    }
+    
+    #body3 .MonthlyPlans .GetAway button{
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #26C195; 
+        color: white;
+        padding: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    #body3 .MonthlyPlans .GetAway a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: #698ED5;
+        padding: 20px;
+    }
+
+
+    #body3 .MonthlyPlans .Freedom{
+        display: block;
+        width: 20%;
+        border: 1px solid gainsboro;
+        margin-right: 15%;
+        padding: 20px;
+    }
+    
+    #body3 .MonthlyPlans .Freedom h1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #15244D;
+        padding: 10px;
+    }
+    
+    #body3 .MonthlyPlans .Freedom .PaMonth{
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+    }
+    
+    #body3 .MonthlyPlans .Freedom .Three89{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+    }
+    
+    #body3 .MonthlyPlans .Freedom .gaCar{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #4F535F;
+        padding: 20px;
+        word-wrap: break-word;
+        margin: auto;
+    }
+    
+    #body3 .MonthlyPlans .Freedom button{
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #26C195; 
+        color: white;
+        padding: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    #body3 .MonthlyPlans .Freedom a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: #698ED5;
+        padding: 20px;
+    }
+    
+
+/* hover properties for the cards */
+
+#body3 .MonthlyPlans .FlexPass:hover, 
+#body3 .MonthlyPlans .GetAway:hover, 
+#body3 .MonthlyPlans .Freedom:hover {
+    display: block;
+    width: 20%;
+    border: 1px;
+    border-top: 2px solid #4C84F1;
+    background-color: white;
+    box-shadow: 25px 0px 25px 0px #DDE3F1;
+    margin-right: 5%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #body3 .upshiftPlansG{
+        display: flex;
+        width: 70%;
+        background-color: white;
+        box-shadow: 200px 0px 200px 0px #DDE3F1;
+        margin: auto;
+        padding: 40px;
+        position: relative;
+        top: 100px;
+        z-index: 10;
+    }
+    
+    #body3 .upshiftPlansG img{
+        display: block;
+        width: 3%;
+        height: 3%;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: #4C84F1;
+    }
+    
+    #body3 .upshiftPlansG p{
+        display: block;
+        width: 90%;
+        margin-top: 0.5%;
+        margin-left: 2%;
+    }
+
+
+
+
+
+
+    #body4{
+        position: absolute;
+        top: 4300px;
+        z-index: 100;
+        width: 100%;
+    }
+
+    #body4 #upShiftTEstimonyBlock{
+        display: flex;
+        width: 95%;
+        background-color: white;
+        margin-left: 5%;
+    }
+
+
+
+
+    #body4 #upShiftTEstimonyBlock .CliffordImg{
+        display: block;
+        width: 30%;
+    }
+        
+        
+    #body4 #upShiftTEstimonyBlock .CliffordImg img{
+        display: block;
+        width: 100%;
+        height: 450px;
+        z-index: 1;
+    }  
+
+
+
+
+
+    #body4 #upShiftTEstimonyBlock .CliffordTestimony{
+        display: block;
+        width: 70%;
+        color: #15244D;
+        padding: 100px;
+    }
+    
+
+    #body4 #upShiftTEstimonyBlock .CliffordTestimony h2{
+        display: block;
+        width: 100%;
+        color: #1B2441;
+    }
+    
+    
+    #body4 #upShiftTEstimonyBlock .CliffordTestimony p{
+        display: block;
+        width: 100%;
+        color: #15244D;
+        text-align: center;
+    }
+
+
+
+
+
+    #body4 #OBPTzs {
+        display: flex;
+        width: 85%;
+        padding: 20px;
+        margin-left: 15%;
+        background-color: white;
+    }
+
+    #body4 #OBPTzs div {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    #body4 #OBPTzs div img {
+        display: block;
+        width: 15%;
+        height: 5%;
+        margin: 1.5%;  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #body5{
+        width: 100%;
+        background-color: #F4F9FF;
+        color: #15244D;
+        position: absolute;
+        top: 4500px;
+        padding-top: 500px;
+        padding-bottom: 300px;
+    }
+
+
+
+    #upshiftBenefits{
+        display: flex;
+        width: 100%;
+        padding-left: 70px;
+        padding-top: 35px;
+        padding-right: 70px;
+        
+    }
+    
+     #upshiftBenefits .Benefits{
+        display: block;
+        width: 33.3%;
+    }
+    
+    #upshiftBenefits .Benefits h1{
+        display: block;
+        width: 50%;
+        color: #15244D;
+        word-wrap: break-word;
+    }
+
+
+
+
+
+    #upshiftBenefits .Flexible{
+        display: block;
+        width: 33.3%;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+     #upshiftBenefits .Flexible div{
+        display: flex;
+        width: 100%;
+    }
+    
+     #upshiftBenefits .Flexible div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    
+     #upshiftBenefits .Flexible div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+     #upshiftBenefits .Flexible p{
+        display: block;
+        width: 80%;
+        color: #4F535F;
+        margin-left: 0%;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 30px;
+    }
+    
+    
+
+
+    #upshiftBenefits .sDelivery{
+        display: block;
+        width: 33.3%;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    #upshiftBenefits .sDelivery div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #upshiftBenefits .sDelivery div img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    
+    #upshiftBenefits .sDelivery div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+    #upshiftBenefits .sDelivery p{
+        display: block;
+        width: 80%;
+        color: #4F535F;
+        margin-left: 0%;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 30px;
+    }
+    
+
+
+
+
+    #UpsBenefits1{
+        display: flex;
+        width: 100%;
+        padding-left: 70px;
+        padding-top: 35px;
+        padding-right: 70px;
+        
+    }
+
+#UpsBenefits1 .FullTank{
+        display: block;
+        width: 33.3%;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    
+#UpsBenefits1 .FullTank div{
+        display: flex;
+        width: 100%;
+    }
+    
+#UpsBenefits1 .FullTank img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    
+ #UpsBenefits1 .FullTank div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+#UpsBenefits1 .FullTank p{
+        display: block;
+        width: 80%;
+        color: #4F535F;
+        margin-left: 0%;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+    #UpsBenefits1 .AlwaysClean{
+        display: block;
+        width: 33.3%;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+   #UpsBenefits1 .AlwaysClean div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #UpsBenefits1 .AlwaysClean img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    
+   #UpsBenefits1 .AlwaysClean div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+    #UpsBenefits1 .AlwaysClean p{
+        display: block;
+        width: 80%;
+        color: #4F535F;
+        margin-left: 0%;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 30px;
+    }
+    
+    
+    
+    
+    #UpsBenefits1 .oneWay{
+        display: block;
+        width: 33.3%;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    #UpsBenefits1 .oneWay div{
+        display: flex;
+        width: 100%;
+    }
+    
+    #UpsBenefits1 .oneWay img{
+        display: block;
+        width: 10%;
+        height: 10%;
+        background-color: #26C195;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+    
+    #UpsBenefits1 .oneWay div h1{
+        display: block;
+        width: 90%;
+        color: #15244D;
+    }
+    
+    #UpsBenefits1 .oneWay  p{
+        display: block;
+        width: 80%;
+        color: #4F535F;
+        margin-left: 0%;
+        margin-top: 10px;
+        word-wrap: break-word;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #footer{
+        display: block;
+        background: linear-gradient(#1A2D55, #16284C);
+        width: 100%;
+        position: absolute;
+        top: 5400px;
+    }
+    
+    #footer .JoinInstantly{
+        display: flex;
+        width: 100%;
+        padding: 100px;
+    }
+    
+    #footer .JoinInstantly h1{
+        display: block;
+        width: 40%;
+        color: white;
+        margin-right: 20%;
+        text-align: justify;
+    }
+    
+    #footer .JoinInstantly a{
+        display: block;
+        width: 20%;
+        background-color: #26C195;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+
+    
+    #footer .upshiftFooterDetails{
+        width: 100%;
+        display: flex;
+        color: white;
+        padding-top: 85px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    .footerline{
+        width: 85%;
+        margin: auto;
+    }
+    
+
+    
+    #footer .upshiftFooterDetails .upshiftDetailsHeading{
+        width: 20%;
+        display: block;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsHeading p{
+        display: block;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsHeading a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+
+
+    
+    #footer .upshiftFooterDetails .upshiftDetailsLinks{
+        width: 20%;
+        display: block;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks p{
+        display: block;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+
+
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1{
+        width: 40%;
+        display: flex;
+    }
+
+
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk1{
+        width: 50%;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk1 p{
+        width: 100%;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk1 a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+
+
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk2{
+        width: 50%;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk2 p{
+        width: 100%;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk2 a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk2 input{
+        width: 150%;
+        display: block;
+        padding: 20px;
+        border-radius: 50px;
+        background-color: #2E3E5F;
+        border: none;
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+    }
+
+    #footer .upshiftFooterDetails .upshiftDetailsLinks1 .upshiftlynk2 input::after{
+        content: "";
+        width: 20%;
+        border-radius: 50%;
+        height: 200px;
+        background-color: red;
+    }
+
+
+
+
+
+    #footer #footerlogos{
+        display: flex;
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+
+
+
+    #footer .footimg{
+        width: 20%;
+    }
+
+    #footer .footimg img{
+        display: block;
+        width: 30%;
+        height: 1%;
+        color: white;
+        text-decoration: none;
+        padding-top: 90px;
+    }
+    
+
+
+
+    #footer #para{
+        width: 40%;
+    }
+
+    #footer #para p{
+        display: block;
+        width: 100%;
+        color: white;
+        padding-top: 90px;
+    }
+    
+
+
+
+    #footer #footerlogos #iconlink{
+        display: flex;
+        width: 20%;
+        padding-top: 90px;
+    }
+    
+    #footer #footerlogos #iconlink a{
+        display: block;
+        width: 20%;
+        border: 3px solid white;
+    }
+
+
